@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="utf8">
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <input class="input">
+            <button onclick="add()">Добавить</button>
+            <button onclick="clearAll()">Очистить всё</button>
+            <br><br>
+            <button onclick="checkAll()">Выполнить всё</button>
+            <button onclick="uncheckAll()">Отменить выполнение</button>
+            <span class="count">Количество задач: </span>
+            <br><br>
+            <button onclick="delCheckAll()">Удалить выполненные задачи</button>
+            <button onclick="delUncheckAll()">Удалить не выполненные задачи</button>
+            <select class="sort" onchange="sortToDo()">
+                <option value="all" selected>Все</option>
+                <option value="check">Сортировка по выполненным</option>
+                <option value="unCheck">Сортировка по не выполненным</option>
+            </select>
+            <h2>Список дел:</h2>
+            <ul id="ul"></ul>
+            <br><br>
+            <button onclick="handlerPagination('back')">Назад</button>
+            <button onclick="handlerPagination('next')">Вперёд</button>
+            <br><br>
+            <span>Сколько дел отобразить: </span>
+            <input class="pag" value=3 onchange="handlerTodoOnPage()">
+        </div>
+  <script src="js/script.js"></script>
+    </body>
+</html>
