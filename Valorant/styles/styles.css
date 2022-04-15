@@ -1,0 +1,416 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(43, 41, 41);
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.circle{
+    border-radius: 50%;
+    position: fixed;
+}
+
+.circle__one{
+    background-color: rgb(247, 84, 84);
+    width: 60%;
+    height: 120%;
+    left: -15%;
+    top: -40%;
+}
+
+.circle__two{
+    background-color: rgb(247, 84, 84);
+    width:2%;
+    height: 4%;
+    left: 90%;
+    top: 5%;
+}
+
+.circle__three{
+    background-color: gainsboro;
+    width:9%;
+    height: 18%;
+    left: 85%;
+    top: 15%; 
+}
+
+.circle__four{
+    background-color: gray;
+    width:3%;
+    height: 6%;
+    left: 95%;
+    top:35%;
+}
+
+.circle__five{
+    background-color: gray;
+    width:2%;
+    height: 4%;
+    left: 5%;
+    top: 90%;
+}
+
+.circle__six{
+    background-color: white;
+    width:10%;
+    height: 20%;
+    left: 15%;
+    bottom: -15%;
+}
+
+.circle__seven{
+    background-color: rgb(25, 33, 44);
+    width: 40%;
+    height: 80%;
+    right: -10%;
+    bottom: -30%;
+}
+
+.content{
+    position: relative;
+    width: 90%;
+    z-index: 1;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.content__header{
+    background-color: black;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    font-family: monospace;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.content__logo{
+    padding: 20px;
+    width: 16%;
+}
+
+.content__logo__riotGames, .content__logo__Valarant{
+    display: inline;
+}
+
+.content__logo__Valarant{
+    padding-left: 10%;
+}
+
+.img__content__logo__riotGames{
+    border-right: 1px solid white;
+    padding-right: 10%;
+}
+
+.content__navbar__menu ul{
+    padding-top: 20px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.content__navbar__menu ul li{
+    color: white;
+    display: inline;
+    margin: 10px;
+}
+
+.content__navbar__menu ul li:hover{
+    color:rgb(240, 62, 62);
+}
+
+.content__navbar__menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.content__navbar__menu a:hover{
+    color:rgb(240, 62, 62);
+    text-decoration: none;
+}
+
+.content__navbar__menu ul .content__sub__menu{
+    display: none;
+	position: absolute;
+}
+
+.content__navbar__menu ul .content__dropdawn:hover > .content__sub__menu {
+    display:inherit;
+}
+
+.content__navbar__menu ul ul li{
+	display:list-item;
+    position: relative;
+    right: 100%;
+    background-color: black;
+    margin: 0px;
+    padding: 15px;
+}
+
+.main__content{
+    height: 800px;
+    margin-top: 0px;
+    background-image: url(../../Проект/image/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: rgb(207, 50, 50);
+}
+
+.content__agents{
+    width: 15%;
+    position: relative;
+    top: 10%;
+    left: 2%;
+}
+
+.content__agents__logo1{
+    display: inline;
+    position: absolute;
+    top: 84%;
+    left: 10%;
+    z-index: 1;
+}
+
+.content__agents__logo2{
+    display: inline;
+    position: absolute;
+    top: 80%;
+    opacity: 0.5;
+}
+
+.content__line1{
+    opacity: 0.5;
+    position: absolute;
+    top: 97%;
+}
+
+.content__line2{
+    position: absolute;
+    top: 103%;
+}
+
+.content__agents__logo3{
+    position: relative;
+    left: 55%;
+    display: block;
+}
+
+.content__card__phoenix{
+    width: 20%;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    bottom: 53%;
+    left: 20%;
+    background-image: url(../image/phoenix/phoenix.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: rgb(29, 27, 27);
+}
+
+.content__card__panel_phoenix{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 13%;
+    left: 10%;
+    border: 1px solid white;
+    background-color: rgb(29, 27, 27);
+    padding-top: 10px;
+}
+
+.content__phoenix__text{
+    width:30%;
+    position: relative;
+    top: 10%;
+    right: 7%;
+}
+
+.content__unitedKingdom{
+    position: relative;
+    bottom: 50%;
+    left: 10%;
+}
+
+.content__card__panel__logo1{
+    position: relative;
+    left: 9%;
+    display: inline;
+    padding-top: 10px;
+}
+
+.content__card__panel__logo2{
+    position: relative;
+    left: 17%;
+    display: inline;
+}
+
+.content__card__panel__logo3{
+    position: relative;
+    left: 24%;
+    display: inline;
+}
+
+.content__card__panel__logo4{
+    position: relative;
+    left: 33%;
+    display: inline;
+}
+
+.content__card__jett{
+    width: 20%;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    bottom: 72%;
+    left: 25%;
+    background-image: url(../image/jett/jett.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: rgb(29, 27, 27);
+}
+
+.content__JETT_text{
+    width:30%;
+    position: relative;
+    top: 12%;
+    right: 7%;
+}
+
+.content__SouthKorea{
+    position: relative;
+    bottom: 23%;
+    left: 12%;
+}
+
+.content__card__panel_jett{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 17.5%;
+    left: 10%;
+    border: 1px solid white;
+    background-color: rgb(29, 27, 27);
+    padding-top: 10px;
+}
+
+.content__card__sova{
+    width: 20%;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    bottom: 81.5%;
+    left: 30%;
+    background-image: url(../image/sova/Sova.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: rgb(179, 162, 162);
+}
+
+.content__sova_text{
+    width:30%;
+    position: relative;
+    top: 12%;
+    right: 7%;
+}
+
+.content__Russia{
+    position: relative;
+    bottom: 25%;
+    left: 12%;
+}
+
+.content__card__panel_sova{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 32.5%;
+    left: 10%;
+    border: 1px solid white;
+    background-color: rgb(29, 27, 27);
+    padding-top: 10px;
+}
+
+.content__footer{
+    height: 100px;
+    background-color: white;
+    margin-top: 0px;
+    border-radius: 0px 0px 30px 30px;
+    margin-bottom: 100px;
+}
+
+.content__footer__card{
+    background-image: url(../../Проект/image/footer/stroke.svg);
+    background-repeat: no-repeat;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;;
+    position: absolute;
+    width: 30%;
+    height: 95%;
+    bottom: 60%;
+}
+
+.card__basic{
+    left: -5%;
+}
+
+.card__signature{
+    left: 28%;
+}
+
+.card__ultimate{
+    left: 61%;
+}
+
+.footer__play{
+    background-image: url(../../Проект/image/footer/play/stroke.svg);
+    background-repeat: no-repeat;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;;
+    position: absolute;
+    left: 94%;
+    bottom: 60%;
+    width: 10%;
+    height: 95%;
+}
+
+.footer__play img{
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
+
+.card__name{
+    position: relative;
+    left: 10%;
+    top: 12%;
+}
+
+.card__orb{
+    position: relative;
+    left: 10%;
+    top: 16%;
+}
+
+.card__text{
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
+.card__logo{
+    position: absolute;
+    left: 65%;
+    bottom: 0%;
+    width: 20%;
+    height: 70%;
+    border: 1px solid rgb(247, 84, 84);
+    background-color: rgb(247, 84, 84);
+}
+
+.card__logo img{
+    position: relative;
+    left: 30%;
+    bottom: 20%;
+}
